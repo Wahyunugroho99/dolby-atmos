@@ -1,0 +1,6 @@
+{
+  "name": "Dolby Atmos",
+  "description": "Dolby Atmos audio experience, intelligent equalizer, 3D spatial surround virtualizer, dialogue enhancer, bass booster, and profile manager without Magisk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

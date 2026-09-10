@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Dolby Atmos</string>
+    <string name="dolby_atmos_title">Dolby Atmos</string>
+    <string name="dolby_magic_revision">Magic Revision (Rootless)</string>
+    <string name="dolby_status_enabled">Dolby Atmos is Active</string>
+    <string name="dolby_status_disabled">Dolby Atmos is Inactive</string>
+    
+    <!-- Sound Profiles -->
+    <string name="profile_dynamic">Dynamic</string>
+    <string name="profile_dynamic_desc">Intelligently identifies content type and dynamically tunes acoustic clarity, surround depth, and punch.</string>
+    <string name="profile_movie">Movie</string>
+    <string name="profile_movie_desc">Expands virtual 3D cinema soundstage, elevates crisp dialogue, and delivers deep theatrical sub-bass rumble.</string>
+    <string name="profile_music">Music</string>
+    <string name="profile_music_desc">Enhances tonal balance, wide stereo separation, pristine instrument timbre, and rich bass fidelity.</string>
+    <string name="profile_voice">Voice</string>
+    <string name="profile_voice_desc">Maximizes vocal articulation and speech intelligibility for podcasts, audiobooks, and calls.</string>
+    <string name="profile_game">Game</string>
+    <string name="profile_game_desc">Sharpens spatial audio cues, directional positioning for footsteps, and dynamic explosive impact.</string>
+    <string name="profile_custom">Custom</string>
+    <string name="profile_custom_desc">Full manual acoustic customization with custom 10-band EQ curve, bass booster, and surround tuning.</string>
+
+    <!-- Intelligent EQ -->
+    <string name="intelligent_eq">Intelligent EQ</string>
+    <string name="intelligent_eq_desc">Automatic dynamic acoustic compensation</string>
+    <string name="ieq_detailed">Detailed</string>
+    <string name="ieq_warm">Warm</string>
+    <string name="ieq_balanced">Balanced</string>
+    <string name="ieq_open">Open</string>
+    <string name="ieq_focused">Focused</string>
+    <string name="ieq_off">Off</string>
+
+    <!-- Sound Effects -->
+    <string name="surround_virtualizer">Surround Virtualizer</string>
+    <string name="surround_virtualizer_desc">Expands spatial 3D audio separation and immersive multi-channel sound field.</string>
+    <string name="dialogue_enhancer">Dialogue Enhancer</string>
+    <string name="dialogue_enhancer_desc">Isolates and elevates center vocal frequencies for crystal-clear speech articulation.</string>
+    <string name="bass_enhancer">Bass Enhancer</string>
+    <string name="bass_enhancer_desc">Dynamic low-frequency sub-bass acoustic boost without distortion.</string>
+    <string name="volume_leveler">Volume Leveler</string>
+    <string name="volume_leveler_desc">Maintains consistent loudness across tracks, movies, and varying audio sources.</string>
+
+    <!-- Graphic Equalizer -->
+    <string name="graphic_equalizer">Graphic Equalizer</string>
+    <string name="reset_eq">Reset EQ</string>
+    <string name="eq_preset">Equalizer Preset</string>
+    <string name="preset_flat">Flat</string>
+    <string name="preset_rock">Rock</string>
+    <string name="preset_pop">Pop</string>
+    <string name="preset_jazz">Jazz</string>
+    <string name="preset_electronic">Electronic</string>
+    <string name="preset_classical">Classical</string>
+    <string name="preset_hiphop">Hip-Hop</string>
+    <string name="preset_vocal">Vocal Boost</string>
+    <string name="preset_bass">Deep Bass</string>
+    <string name="preset_custom">Custom</string>
+    
+    <!-- Audio Output / Device Routing -->
+    <string name="output_device">Audio Output</string>
+    <string name="device_speaker">Speaker</string>
+    <string name="device_wired">Wired Headset</string>
+    <string name="device_bluetooth">Bluetooth A2DP</string>
+    <string name="device_usb">USB DAC / Audio</string>
+    <string name="auto_detect_routing">Auto Device Profile</string>
+    <string name="auto_detect_routing_desc">Automatically switch tuned acoustic profile when headset or Bluetooth connects.</string>
+
+    <!-- Media Player / Audio Demos -->
+    <string name="spatial_demo_title">Dolby Spatial Audio Test Player</string>
+    <string name="spatial_demo_desc">Experience real-time Dolby Atmos DSP processing on high-fidelity spatial tracks or your own audio files.</string>
+    <string name="demo_track_cinema">Cinematic Atmos Spatial Showcase</string>
+    <string name="demo_track_surround">360° 8D Rotating Spatial Sound</string>
+    <string name="demo_track_music">Audiophile Acoustic Harmony</string>
+    <string name="demo_track_bass">Sub-Bass &amp; Low-End Resonance</string>
+    <string name="demo_track_voice">Dialogue &amp; Speech Articulation</string>
+    <string name="play_local_file">Play Custom Local Track</string>
+    <string name="playing">Playing</string>
+    <string name="paused">Paused</string>
+    <string name="stop">Stop</string>
+
+    <!-- Global Integration & Info -->
+    <string name="session_control">Audio Session Link (Rootless)</string>
+    <string name="session_control_desc">Attach Dolby Atmos DSP directly to active music apps (Spotify, YouTube Music, Apple Music, Poweramp) without Magisk or Root.</string>
+    <string name="active_session_id">Active Session ID</string>
+    <string name="global_session">Global Output (Session 0)</string>
+    <string name="attach_session">Attach Session</string>
+    <string name="detach_session">Detach</string>
+    <string name="dsp_engine_status">DSP AudioFX Engine</string>
+    <string name="dsp_engine_running">Hardware/Software DSP Active</string>
+    <string name="dsp_engine_standby">DSP Standby (Ready to process)</string>
+    <string name="tab_main">Dolby Atmos</string>
+    <string name="tab_equalizer">Equalizer</string>
+    <string name="tab_enhancements">Enhancements</string>
+    <string name="tab_demo_player">Spatial Demo</string>
+    <string name="tab_session">Session Link</string>
+    
+    <!-- Actions -->
+    <string name="save_preset">Save Profile</string>
+    <string name="profile_saved">Profile saved successfully</string>
+    <string name="reset_defaults">Reset to Defaults</string>
+    <string name="about_rootless_dolby">About Rootless Dolby Atmos</string>
+    <string name="about_dialog_content">This application brings the legendary Dolby Atmos MagicRevision acoustic tuning interface, multi-channel spatial virtualizer, intelligent EQ curves, and audio enhancement suite to Android without requiring Magisk root module or system partition modifications.\n\nIt utilizes Android\'s high-performance AudioEffect DSP framework with dynamic acoustic profiles, supporting both global output and individual media player sessions.</string>
+    <string name="close">Close</string>
+</resources>
